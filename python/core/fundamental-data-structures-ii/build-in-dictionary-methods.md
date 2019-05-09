@@ -109,7 +109,7 @@ print(dict.values())
 # Output: dict_values([1, 4, 9, 16, 25])
 ```
 
-- `fromkeys(seq[, v])`: return a new **dictionary** with keys from `seq` and value equal to `v`
+- `fromkeys(seq,[ v])`: return a new **dictionary** with keys from `seq` and value equal to `v`
 
 ```
 dict = {}.fromkeys([1,2,3], 0)
